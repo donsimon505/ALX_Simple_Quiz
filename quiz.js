@@ -11,6 +11,5 @@ function checkAnswer(){
     }
 }
 
-const submitAnswer = getElementById('submit-answer');
-
-submitAnswer.addEventListener('submit', checkAnswer);
+const submitAnswer = document.getElementById('submit-answer');
+submitAnswer.addEventListener('click', checkAnswer);
